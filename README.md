@@ -10,7 +10,7 @@
 
 <h2>👨‍💻 Projects:</h2>
 
-- <b>Current Project</b>: 
+- <b>Current Project</b>: [eiotservice](https://github.com/nathandiez/eiotservice) - IoT Deployment Project
 
 <h2>🤳 Connect with me:</h2>
 
@@ -34,3 +34,4 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
