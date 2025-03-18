@@ -10,7 +10,7 @@
 
 <h2>👨‍💻 Projects:</h2>
 
-- <b>Current Project</b>: [eiotservice](https://github.com/nathandiez/eiotservice) - IoT Deployment Project
+- <b>Current Project</b>: [iots2](https://github.com/nathandiez/iots2.git) - IoT Deployment Project
 
 <h2>🤳 Connect with me:</h2>
 
