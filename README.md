@@ -5,8 +5,6 @@
 - <b>CompTIA A+</b>
 - <b>CompTIA Network+</b>
 - <b>CompTIA Security+</b>
-- <b>Microsoft Office Specialist: Excel 2019 Expert</b>
-- <b>Microsoft Office Specialist: Excel 2019 Associate</b>
 
 <h2>👨‍💻 Projects:</h2>
 
