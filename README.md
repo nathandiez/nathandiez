@@ -3,7 +3,7 @@
 # Nathan Diez
 **Recent Graduate | Aspiring DevOps Engineer | Information Systems**
 
-nathandiez12@&zwnj;gmail.com | [LinkedIn](https://www.linkedin.com/in/nathandiez/) | (404) 824-9008
+nathandiez12@&zwnj;gmail.com | [LinkedIn](https://www.linkedin.com/in/nathandiez/) 
 
 </div>
 
@@ -35,21 +35,6 @@ Built a complete IoT system that collects sensor data from custom Raspberry Pi P
 - [IoT Sensor Repo](https://github.com/nathandiez/picosensor_net)
 - [Architecture Diagram](https://github.com/nathandiez/nathandiez/blob/main/architecture.md)
 
----
-
-## Certifications
-
-### CompTIA Security+
-January 2025  
-Security fundamentals, cryptography, risk management
-
-### CompTIA Network+
-December 2024  
-Networking protocols, infrastructure design, troubleshooting
-
-### CompTIA A+
-October 2024  
-Hardware, software, IT troubleshooting fundamentals
 
 ---
 
@@ -74,29 +59,5 @@ Databricks
 
 ### Programming & Scripting
 C#, Python, MicroPython
-
----
-
-## GitHub Stats
-
-![Nathan's GitHub stats](https://github-readme-stats.vercel.app/api?username=nathandiez&show_icons=true&theme=dark)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=nathandiez&layout=compact&theme=dark)
-
----
-
-## Education
-
-### Auburn University - Harbert College of Business
-**Bachelor of Science in Business Administration** | Information Systems Management  
-Graduated August 2024 | GPA: 3.0 | Dean's List Recipient
-
----
-
-## Let's Connect
-
-Looking for a DevOps, Cloud, or related role where I can apply my cloud and automation experience to contribute to a team and their deployment processes.
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nathandiez/)
 
 ---
