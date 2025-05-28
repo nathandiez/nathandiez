@@ -33,7 +33,7 @@ Built a complete IoT system that collects sensor data from custom Raspberry Pi P
 **Links:**
 - [IoT Backend Repo](https://github.com/nathandiez/iots6_net)
 - [IoT Sensor Repo](https://github.com/nathandiez/picosensor_net)
-- Architecture Diagram
+- [Architecture Diagram](https://github.com/nathandiez/nathandiez/blob/main/architecture.md)
 
 ---
 
