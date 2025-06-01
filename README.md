@@ -15,9 +15,9 @@ Recent Information Systems graduate seeking entry level DevOps, SecOps, or relat
 
 ---
 
-## Featured Project
+## Featured Projects
 
-### Home IoT Monitoring System
+### Home IoT Monitoring System - Azure Stack
 
 Built a complete IoT system that collects sensor data from custom Raspberry Pi Pico W devices and processes it through Azure cloud services. The project demonstrates practical cloud infrastructure management and real-time data processing. I split the work into two repositories - one for the Azure backend and one for the sensor firmware.
 
@@ -35,6 +35,26 @@ Built a complete IoT system that collects sensor data from custom Raspberry Pi P
 - [IoT Sensor Repo](https://github.com/nathandiez/picosensor_net)
 - [Architecture Diagram](https://github.com/nathandiez/nathandiez/blob/main/architecture.md)
 
+
+### Home IoT Monitoring System - Proxmox/Open Source Stack
+Designed and deployed a complete self-hosted IoT platform using open-source technologies on Proxmox virtual infrastructure. Showcases skills in infrastructure automation, container orchestration, and embedded systems programming.
+
+**Technologies:** Proxmox, Docker, TimescaleDB, Mosquitto MQTT, Flask, Ansible, Terraform, MicroPython, Raspberry Pi Pico W
+
+#### What I Built:
+- Proxmox virtual infrastructure using Terraform for automated VM provisioning and management
+- TimescaleDB hypertable database with custom schema for time-series sensor data storage
+- Mosquitto MQTT broker with Docker containerization for real-time message processing
+- Python data ingestion service that processes MQTT messages and stores to PostgreSQL
+- Flask configuration server with Docker deployment and Ansible automation
+- Comprehensive monitoring and logging with Docker container orchestration
+- MicroPython firmware for Pico W with temperature and humidity sensors
+
+**Links:**
+- [IoT Backend Repo](https://github.com/nathandiez/iots6)
+- [IoT Sensor Repo](https://github.com/nathandiez/picosensor_net) 
+- [Config Server](https://github.com/nathandiez/prox_serveconfig)
+- [Architecture Diagram](https://github.com/nathandiez/nathandiez/blob/main/architecture2.md)
 
 ---
 
