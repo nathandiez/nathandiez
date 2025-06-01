@@ -1,3 +1,5 @@
+# IoT System Architecture
+```mermaid
 graph TB
   subgraph "Home Environment"
       subgraph "Physical Sensors"
