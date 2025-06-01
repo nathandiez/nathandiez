@@ -37,7 +37,7 @@ Built a complete IoT system that collects sensor data from custom Raspberry Pi P
 
 
 ### Home IoT Monitoring System - Proxmox/Open Source Stack
-Designed and deployed a complete self-hosted IoT platform using open-source technologies on Proxmox virtual infrastructure. Showcases skills in infrastructure automation, container orchestration, and embedded systems programming.
+Designed and deployed a complete self-hosted IoT platform using open-source technologies on Proxmox virtual infrastructure. Showcases skills in infrastructure automation, container orchestration, and embedded systems programming. I split the work into three repositories - one for the IoT backend, one for the sensor firmware, and one for the configuration server.
 
 **Technologies:** Proxmox, Docker, TimescaleDB, Mosquitto MQTT, Flask, Ansible, Terraform, MicroPython, Raspberry Pi Pico W
 
