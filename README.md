@@ -10,7 +10,7 @@ Azure VMs, Terraform, local-exec, Ansible, Docker, TimescaleDB, Mosquitto MQTT, 
 - [IoT Device Repo](https://github.com/nathandiez/picosensor_net) 
 - [Config Server](https://github.com/nathandiez/prox_serveconfig)
 - [Architecture Diagram](https://github.com/nathandiez/nathandiez/blob/main/architecture3.md)
-#### What I Built:
+#### Description:
 - Azure infrastructure automation using Terraform, local-exec for VM provisioning and network security groups
 - Multi-stage deployment pipeline with Bash scripts integrating Terraform and Ansible orchestration
 - Dockerized IoT services including TimescaleDB for time-series data and Mosquitto MQTT broker
@@ -27,7 +27,7 @@ Proxmox VMs, Terraform, Ansible, Docker, TimescaleDB, Mosquitto MQTT, Flask, Pyt
 - [IoT Device Repo](https://github.com/nathandiez/picosensor_net) 
 - [Config Server](https://github.com/nathandiez/prox_serveconfig)
 - [Architecture Diagram](https://github.com/nathandiez/nathandiez/blob/main/architecture2.md)
-#### What I Built:
+#### Description:
 - Proxmox infrastructure automation using Terraform for VM provisioning and management
 - Multi-stage deployment pipeline with Ansible orchestration
 - Dockerized IoT services including TimescaleDB for time-series data and Mosquitto MQTT broker
@@ -43,7 +43,7 @@ Azure App Service, Terraform, Azure Data Lake, Databricks, C# .NET, MicroPython,
 - [IoT Backend Repo](https://github.com/nathandiez/iots6_net)
 - [IoT Device Repo](https://github.com/nathandiez/picosensor_net)
 - [Architecture Diagram](https://github.com/nathandiez/nathandiez/blob/main/architecture.md)
-#### What I Built:
+#### Description:
 - Azure infrastructure automation using Terraform for consistent cloud deployments
 - RESTful API in C# .NET deployed to Azure App Service for real-time data ingestion
 - Automated data storage pipeline to Azure Data Lake with structured folder organization
