@@ -52,6 +52,23 @@ Azure App Service, Terraform, Azure Data Lake, Databricks, C# .NET, MicroPython,
 - Comprehensive deployment and monitoring scripts
 - MicroPython app on Raspberry Pi Pico W devices measuring temperature and humidity
 
+
+## Home IoT Monitoring System - Azure Kubernetes Stack
+Built and deployed on Azure using Kubernetes and cloud-native technologies:
+Azure Kubernetes Service (AKS), Terraform, Helm, Docker, TimescaleDB, Mosquitto MQTT, React, Flask, Python, cert-manager, NGINX Ingress
+- [IoT Backend Repo](https://github.com/nathandiez/iots2)
+- [Architecture Diagram](https://github.com/nathandiez/nathandiez/blob/main/architecture4.md)
+#### Description:
+- Azure Kubernetes Service infrastructure automation using Terraform with custom VNet and subnet configuration
+- Complete Helm chart deployment with comprehensive Kubernetes manifests for all system components
+- Secure MQTT broker with TLS encryption using cert-manager generated certificates and password authentication
+- Python IoT service with Prometheus metrics collection for monitoring message processing and sensor data
+- TimescaleDB hypertable implementation for efficient time-series data storage with automated schema initialization
+- React dashboard with Recharts visualization displaying real-time temperature, humidity, pressure, motion and switch data
+- Flask REST API with health checks and API key authentication for secure data access
+- NGINX Ingress controller with dynamic IP configuration using nip.io DNS
+- Comprehensive deployment automation with nuclear cleanup scripts and environment restoration capabilities
+- Full CI/CD pipeline with GitHub Actions building and pushing multi-architecture Docker images
 ---
 
 ## Technical Skills
