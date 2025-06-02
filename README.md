@@ -74,34 +74,17 @@ Azure Kubernetes Service (AKS), Terraform, Helm, Docker, TimescaleDB, Mosquitto 
 ## Technical Skills
 `Azure` `AWS` `GCP` `Docker` `Kubernetes` `Terraform` `Ansible` `Python` `C#` `GitHub Actions` `Git`
 
-### Cloud Platforms
-Azure, GCP, AWS, Linode
 
-### Containers & Orchestration
-Docker, Kubernetes, Helm
+Azure, GCP, AWS, Linode, Azure Kubernetes Service (AKS), Proxmox, Azure Virtual Machines
 
-### Infrastructure as Code
-Terraform, Ansible
+Docker, Kubernetes, Helm, NGINX Ingress
 
-### CI/CD & Version Control
-GitHub Actions, Git
+Terraform, Ansible, GitHub Actions, Git
 
-### Databases & Message Brokers
+Python, C#, MicroPython, Bash, Flask, React, JavaScript
+
 TimescaleDB, PostgreSQL, Mosquitto MQTT, Azure Data Lake
 
-### Monitoring & Analytics
-Grafana, Databricks, Prometheus
-
-### Programming & Scripting
-C#, Python, MicroPython, Bash
-
-### Web Development & APIs
-Flask, React, JavaScript
-
-### Security & Certificates
-Cert manager, TLS/SSL, NGINX Ingress
-
-### Virtualization & Platforms
-Proxmox, Azure Virtual Machines, Azure Kubernetes Service (AKS)
+Grafana, Databricks, Prometheus, cert-manager, TLS/SSL
 
 ---
