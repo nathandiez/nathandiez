@@ -1,8 +1,9 @@
 ## Featured Projects
 
 ### Home IoT Monitoring System - Azure Open Source Stack
-Live Dashboard: http://74.235.232.127:3000/d/10711dc4-f67e-41ba-af3a-89801da2e582/iot-monitoring 
-Username: iots6 | Password: iots6
+Live Grafana Dashboard: [View Dashboard](http://74.235.232.127:3000/d/10711dc4-f67e-41ba-af3a-89801da2e582/iot-monitoring)
+
+Username: `iots6` | Password: `iots6`
 
 Built and deployed on Azure using open source technologies:
 Azure VMs, Terraform, local-exec, Ansible, Docker, TimescaleDB, Mosquitto MQTT, Grafana, Python, MicroPython, Raspberry Pi Pico W
