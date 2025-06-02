@@ -1,20 +1,3 @@
-<div align="center">
-
-# Nathan Diez
-**Recent Graduate | Aspiring DevOps Engineer | Information Systems**
-
-nathandiez12@&zwnj;gmail.com | [LinkedIn](https://www.linkedin.com/in/nathandiez/) 
-
-</div>
-
----
-
-## About Me
-
-Recent Information Systems graduate seeking entry level DevOps, SecOps, or related roles to apply my hands on experience with Kubernetes, cloud infrastructure, and automation. I have experience with containerization, Kubernetes orchestration, and cloud provisioning across Azure, GCP, and AWS, with foundational knowledge in cybersecurity best practices.
-
----
-
 ## Featured Projects
 
 ### Home IoT Monitoring System - Azure Stack
@@ -56,11 +39,30 @@ Designed and deployed a complete self-hosted IoT platform using open-source tech
 - [Config Server](https://github.com/nathandiez/prox_serveconfig)
 - [Architecture Diagram](https://github.com/nathandiez/nathandiez/blob/main/architecture2.md)
 
+
+### Home IoT Monitoring System - Azure Open Source Stack
+Built a hybrid cloud IoT platform that combines Azure infrastructure with open-source technologies, demonstrating cost-effective cloud deployment strategies. This project bridges the gap between enterprise cloud services and open-source flexibility by deploying traditional open-source IoT tools on Azure VMs.
+
+**Technologies:** Azure Virtual Machines, Terraform, Ansible, Docker, TimescaleDB, Mosquitto MQTT, Grafana, Python, MicroPython, Raspberry Pi Pico W
+
+#### What I Built:
+- Azure infrastructure automation using Terraform for VM provisioning and network security groups
+- Multi-stage deployment pipeline with Bash scripts integrating Terraform and Ansible orchestration
+- Dockerized IoT services including TimescaleDB for time-series data and Mosquitto MQTT broker
+- Python data ingestion service that processes MQTT messages and stores to TimescaleDB
+- Grafana dashboards with automated datasource provisioning for real-time monitoring
+- Comprehensive deployment, monitoring, and teardown scripts with proper state management
+- MicroPython firmware for Pico W with temperature and humidity sensors
+
+**Links:**
+- [IoT Backend Repo](https://github.com/nathandiez/iots6_a_oss)
+- [IoT Sensor Repo](https://github.com/nathandiez/picosensor_net) 
+- [Config Server](https://github.com/nathandiez/prox_serveconfig)
+- [Architecture Diagram](https://github.com/nathandiez/nathandiez/blob/main/architecture3.md)
 ---
 
 ## Technical Skills
-
-`Azure` `AWS` `GCP` `Docker` `Kubernetes` `Terraform` `Python` `C#` `GitHub Actions` `Git`
+`Azure` `AWS` `GCP` `Docker` `Kubernetes` `Terraform` `Ansible` `Python` `C#` `GitHub Actions` `Git`
 
 ### Cloud Platforms
 Azure, GCP, AWS, Linode
@@ -74,10 +76,16 @@ Terraform, Ansible
 ### CI/CD & Version Control
 GitHub Actions, Git
 
+### Databases & Message Brokers
+TimescaleDB, PostgreSQL, Mosquitto MQTT, Azure Data Lake
+
 ### Monitoring & Analytics
-Databricks
+Grafana, Databricks
 
 ### Programming & Scripting
-C#, Python, MicroPython
+C#, Python, MicroPython, Bash
+
+### Virtualization & Platforms
+Proxmox, Azure Virtual Machines
 
 ---
