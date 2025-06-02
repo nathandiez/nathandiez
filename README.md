@@ -8,7 +8,7 @@ Built and deployed on Azure using open-source technologies:
 Azure VMs, Terraform, local-exec, Ansible, Docker, TimescaleDB, Mosquitto MQTT, Grafana, Python, MicroPython, Raspberry Pi Pico W
 **Links:**
 - [IoT Backend Repo](https://github.com/nathandiez/iots6_a_oss)
-- [IoT Sensor Repo](https://github.com/nathandiez/picosensor_net) 
+- [IoT Device Repo](https://github.com/nathandiez/picosensor_net) 
 - [Config Server](https://github.com/nathandiez/prox_serveconfig)
 - [Architecture Diagram](https://github.com/nathandiez/nathandiez/blob/main/architecture3.md)
 #### What I Built:
@@ -26,7 +26,7 @@ Built and deployed on Proxmox using open-source technologies:
 Proxmox VMs, Terraform, Ansible, Docker, TimescaleDB, Mosquitto MQTT, Flask, Python, MicroPython, Raspberry Pi Pico W
 **Links:**
 - [IoT Backend Repo](https://github.com/nathandiez/iots6)
-- [IoT Sensor Repo](https://github.com/nathandiez/picosensor_net) 
+- [IoT Device Repo](https://github.com/nathandiez/picosensor_net) 
 - [Config Server](https://github.com/nathandiez/prox_serveconfig)
 - [Architecture Diagram](https://github.com/nathandiez/nathandiez/blob/main/architecture2.md)
 #### What I Built:
@@ -44,7 +44,7 @@ Built and deployed on Azure using cloud-native services:
 Azure App Service, Terraform, Azure Data Lake, Databricks, C# .NET, MicroPython, Raspberry Pi Pico W, Azure Key Vault
 **Links:**
 - [IoT Backend Repo](https://github.com/nathandiez/iots6_net)
-- [IoT Sensor Repo](https://github.com/nathandiez/picosensor_net)
+- [IoT Device Repo](https://github.com/nathandiez/picosensor_net)
 - [Architecture Diagram](https://github.com/nathandiez/nathandiez/blob/main/architecture.md)
 #### What I Built:
 - Azure infrastructure automation using Terraform for consistent cloud deployments
