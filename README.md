@@ -21,7 +21,7 @@ Azure VMs, Terraform, local-exec, Ansible, Docker, TimescaleDB, Mosquitto MQTT, 
 - MicroPython app on Raspberry Pi Pico W devices measuring, temperature, humidity, barometric pressure, motion and switch state
 
 
-### Home IoT Monitoring System - Proxmox Open Source Stack
+## Home IoT Monitoring System - Proxmox Open Source Stack
 Built and deployed on Proxmox using open-source technologies:
 Proxmox VMs, Terraform, Ansible, Docker, TimescaleDB, Mosquitto MQTT, Flask, Python, MicroPython, Raspberry Pi Pico W
 **Links:**
@@ -39,8 +39,7 @@ Proxmox VMs, Terraform, Ansible, Docker, TimescaleDB, Mosquitto MQTT, Flask, Pyt
 - MicroPython app on Raspberry Pi Pico W devices measuring temperature and humidity
 
 
-## Featured Projects
-### Home IoT Monitoring System - Azure Stack
+## Home IoT Monitoring System - Azure Stack
 Built and deployed on Azure using cloud-native services:
 Azure App Service, Terraform, Azure Data Lake, Databricks, C# .NET, MicroPython, Raspberry Pi Pico W, Azure Key Vault
 **Links:**
