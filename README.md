@@ -99,7 +99,7 @@ C#, Python, MicroPython, Bash
 Flask, React, JavaScript
 
 ### Security & Certificates
-cert-manager, TLS/SSL, NGINX Ingress
+Cert manager, TLS/SSL, NGINX Ingress
 
 ### Virtualization & Platforms
 Proxmox, Azure Virtual Machines, Azure Kubernetes Service (AKS)
