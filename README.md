@@ -90,12 +90,18 @@ GitHub Actions, Git
 TimescaleDB, PostgreSQL, Mosquitto MQTT, Azure Data Lake
 
 ### Monitoring & Analytics
-Grafana, Databricks
+Grafana, Databricks, Prometheus
 
 ### Programming & Scripting
 C#, Python, MicroPython, Bash
 
+### Web Development & APIs
+Flask, React, JavaScript
+
+### Security & Certificates
+cert-manager, TLS/SSL, NGINX Ingress
+
 ### Virtualization & Platforms
-Proxmox, Azure Virtual Machines
+Proxmox, Azure Virtual Machines, Azure Kubernetes Service (AKS)
 
 ---
