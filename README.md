@@ -6,7 +6,6 @@ Username: iots6 | Password: iots6
 
 Built and deployed on Azure using open-source technologies:
 Azure VMs, Terraform, local-exec, Ansible, Docker, TimescaleDB, Mosquitto MQTT, Grafana, Python, MicroPython, Raspberry Pi Pico W
-**Links:**
 - [IoT Backend Repo](https://github.com/nathandiez/iots6_a_oss)
 - [IoT Device Repo](https://github.com/nathandiez/picosensor_net) 
 - [Config Server](https://github.com/nathandiez/prox_serveconfig)
@@ -24,7 +23,6 @@ Azure VMs, Terraform, local-exec, Ansible, Docker, TimescaleDB, Mosquitto MQTT, 
 ## Home IoT Monitoring System - Proxmox Open Source Stack
 Built and deployed on Proxmox using open-source technologies:
 Proxmox VMs, Terraform, Ansible, Docker, TimescaleDB, Mosquitto MQTT, Flask, Python, MicroPython, Raspberry Pi Pico W
-**Links:**
 - [IoT Backend Repo](https://github.com/nathandiez/iots6)
 - [IoT Device Repo](https://github.com/nathandiez/picosensor_net) 
 - [Config Server](https://github.com/nathandiez/prox_serveconfig)
@@ -42,7 +40,6 @@ Proxmox VMs, Terraform, Ansible, Docker, TimescaleDB, Mosquitto MQTT, Flask, Pyt
 ## Home IoT Monitoring System - Azure Stack
 Built and deployed on Azure using cloud-native services:
 Azure App Service, Terraform, Azure Data Lake, Databricks, C# .NET, MicroPython, Raspberry Pi Pico W, Azure Key Vault
-**Links:**
 - [IoT Backend Repo](https://github.com/nathandiez/iots6_net)
 - [IoT Device Repo](https://github.com/nathandiez/picosensor_net)
 - [Architecture Diagram](https://github.com/nathandiez/nathandiez/blob/main/architecture.md)
