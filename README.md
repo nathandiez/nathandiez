@@ -1,5 +1,5 @@
 ## Featured Projects
-Live Grafana Dashboard (Azure Open Source Stack): http://74.235.232.127:3000
+Live Dashboard (Azure Open Source Stack): http://74.235.232.127:3000/d/10711dc4-f67e-41ba-af3a-89801da2e582/iot-monitoring 
 Username: admin | Password: admin
 ### Home IoT Monitoring System - Azure Stack
 
