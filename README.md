@@ -87,16 +87,4 @@ TimescaleDB, PostgreSQL, Mosquitto MQTT, Azure Data Lake
 
 Grafana, Databricks, Prometheus, cert-manager, TLS/SSL
 
-
-## Certifications
-
-**CompTIA A+** Issued October 2024  
-Hardware, software, and basic troubleshooting fundamentals for IT.
-
-**CompTIA Network+** Issued December 2024  
-Networking infrastructure, protocols, and troubleshooting for wired and wireless networks.
-
-**CompTIA Security+** Issued January 2025  
-Cybersecurity fundamentals including threat detection, risk management, and secure network practices.
-
 ---
