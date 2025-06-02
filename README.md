@@ -1,5 +1,6 @@
 ## Featured Projects
-
+Live Grafana Dashboard (Azure Open Source Stack): http://74.235.232.127:3000
+Username: admin | Password: admin
 ### Home IoT Monitoring System - Azure Stack
 
 Built a complete IoT system that collects sensor data from custom Raspberry Pi Pico W devices and processes it through Azure cloud services. The project demonstrates practical cloud infrastructure management and real-time data processing. I split the work into two repositories - one for the Azure backend and one for the sensor firmware.
