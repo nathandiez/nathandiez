@@ -29,13 +29,7 @@ Proxmox VMs, Terraform, Ansible, Docker, TimescaleDB, Mosquitto MQTT, Flask, Pyt
 - [Config Server](https://github.com/nathandiez/prox_serveconfig)
 - [Architecture Diagram](https://github.com/nathandiez/nathandiez/blob/main/architecture2.md)
 #### Description:
-- Proxmox infrastructure automation using Terraform for VM provisioning and management
-- Multi stage deployment pipeline with Ansible orchestration
-- Dockerized IoT services including TimescaleDB for time series data and Mosquitto MQTT broker
-- Python data ingestion service that processes MQTT events and writes records to TimescaleDB
-- Flask configuration server for device management
-- Comprehensive deployment, monitoring, and container orchestration scripts
-- MicroPython app on Raspberry Pi Pico W devices measuring temperature and humidity
+- Same open-source stack as Azure project above.
 
 
 ## Home IoT Monitoring System - Azure Stack
