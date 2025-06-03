@@ -45,7 +45,7 @@ Azure App Service, Terraform, Azure Data Lake, Databricks, C# .NET, MicroPython,
 - Databricks workspace integration for data analysis with custom Python notebooks
 - Secure credential management using Azure Key Vault
 - Comprehensive deployment and monitoring scripts
-- MicroPython app on Raspberry Pi Pico W devices measuring temperature and humidity
+- MicroPython app on Raspberry Pi Pico W devices measuring, temperature, humidity, barometric pressure, motion and switch state
 
 
 ## Home IoT Monitoring System - Azure Kubernetes Stack
