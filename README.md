@@ -1,11 +1,11 @@
-## Featured Projects
+# Featured Projects
 
-### Home IoT Monitoring System - Azure Open Source Stack
+# Home IoT Monitoring System - Azure Open-Source Stack
 Live Grafana Dashboard: [View Dashboard](http://74.235.232.127:3000/d/10711dc4-f67e-41ba-af3a-89801da2e582/iot-monitoring)
 
 Username: `iots6` | Password: `iots6`
 
-Built and deployed on Azure using open source technologies:
+Built and deployed on Azure using open-source technologies:
 Azure VMs, Terraform, local-exec, Ansible, Docker, TimescaleDB, Mosquitto MQTT, Grafana, Python, MicroPython, Raspberry Pi Pico W
 - [IoT Backend Repo](https://github.com/nathandiez/iots6_a_oss)
 - [IoT Device Repo](https://github.com/nathandiez/picosensor_net) 
@@ -20,9 +20,10 @@ Azure VMs, Terraform, local-exec, Ansible, Docker, TimescaleDB, Mosquitto MQTT, 
 - Comprehensive deployment, testing, monitoring, and teardown scripts
 - MicroPython app on Raspberry Pi Pico W devices measuring, temperature, humidity, barometric pressure, motion and switch state
 
+---
 
-## Home IoT Monitoring System - Proxmox Open Source Stack
-Built and deployed on Proxmox using open source technologies:
+# Home IoT Monitoring System - Proxmox Open-Source Stack
+Built and deployed on Proxmox using open-source technologies:
 Proxmox VMs, Terraform, Ansible, Docker, TimescaleDB, Mosquitto MQTT, Flask, Python, MicroPython, Raspberry Pi Pico W
 - [IoT Backend Repo](https://github.com/nathandiez/iots6)
 - [IoT Device Repo](https://github.com/nathandiez/picosensor_net) 
@@ -30,9 +31,10 @@ Proxmox VMs, Terraform, Ansible, Docker, TimescaleDB, Mosquitto MQTT, Flask, Pyt
 - [Architecture Diagram](https://github.com/nathandiez/nathandiez/blob/main/architecture2.md)
 #### Description:
 - Same open-source stack as Azure project above.
+  
+---
 
-
-## Home IoT Monitoring System - Azure Stack
+# Home IoT Monitoring System - Azure Stack
 Built and deployed on Azure using cloud native services:
 Azure App Service, Terraform, Azure Data Lake, Databricks, C# .NET, MicroPython, Raspberry Pi Pico W, Azure Key Vault
 - [IoT Backend Repo](https://github.com/nathandiez/iots6_net)
@@ -46,9 +48,10 @@ Azure App Service, Terraform, Azure Data Lake, Databricks, C# .NET, MicroPython,
 - Secure credential management using Azure Key Vault
 - Comprehensive deployment and monitoring scripts
 - MicroPython app on Raspberry Pi Pico W devices measuring, temperature, humidity, barometric pressure, motion and switch state
+  
+---
 
-
-## Home IoT Monitoring System - Azure Kubernetes Stack
+# Home IoT Monitoring System - Azure Kubernetes Stack
 Built and deployed on Azure using Kubernetes and cloud native technologies:
 Azure Kubernetes Service (AKS), Terraform, Helm, Docker, TimescaleDB, Mosquitto MQTT, React, Flask, Python, cert manager, NGINX Ingress
 - [IoT Backend Repo](https://github.com/nathandiez/iots2)
@@ -64,6 +67,7 @@ Azure Kubernetes Service (AKS), Terraform, Helm, Docker, TimescaleDB, Mosquitto 
 - NGINX Ingress controller with dynamic IP configuration using nip.io DNS
 - Comprehensive deployment automation with nuclear cleanup scripts and environment restoration capabilities
 - Full CI/CD pipeline with GitHub Actions building and pushing multi architecture Docker images
+
 ---
 
 ## Technical Skills
