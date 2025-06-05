@@ -1,7 +1,7 @@
 # Featured Projects
 
 # Home IoT System - Azure Open-Source Stack
-Live Grafana Dashboard: [View Dashboard](http://172.174.9.109:3000/d/7fee1038-fef5-4ef6-811e-15ce95b87ea8/home-iot-monitoring-system-dashboard)
+Live Grafana Dashboard: [View Dashboard](http://172.174.9.109:3000/d/7fee1038-fef5-4ef6-811e-15ce95b87ea8/home-iot-monitoring-system-dashboard) (Down for Maintenance) - Migrating to Kubernetes
 
 Username: `iots6` | Password: `iots6`
 
