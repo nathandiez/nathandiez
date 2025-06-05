@@ -14,10 +14,10 @@ Azure, Terraform, Kubernetes, Ansible, Docker, TimescaleDB, Mosquitto MQTT, Graf
 - Dual deployment options: Single VM with Docker containers or 3-node AKS cluster
 - Infrastructure as Code: Terraform automation for Azure resources with integrated provisioning
 - Automated deployment: Complete pipeline using Bash scripts with Terraform and Ansible orchestration
-- Time-series data processing: TimescaleDB for efficient sensor data storage and Mosquitto MQTT broker
+- Time series data processing: TimescaleDB for efficient sensor data storage and Mosquitto MQTT broker
 - Real-time data pipeline: Python service processes MQTT messages and stores data with proper schema
 - Monitoring and visualization: Grafana dashboards with external LoadBalancer access
-- Enterprise features: Persistent storage, auto-scaling, health checks, and comprehensive management tools
+- Enterprise features: Persistent storage, auto scaling, health checks, and comprehensive management tools
 
 ---
 
@@ -37,19 +37,19 @@ Proxmox VMs, Terraform, Ansible, Docker, TimescaleDB, Mosquitto MQTT, Flask, Pyt
   
 ---
 
-# Home IoT System - AWS Open-Source Stack
 Built and deployed on AWS using open-source technologies:
-AWS EC2, Terraform, local-exec, Ansible, Docker, TimescaleDB, Mosquitto MQTT, Grafana, Python
+AWS, Terraform, Kubernetes, Ansible, Docker, TimescaleDB, Mosquitto MQTT, Grafana, Python
 - [IoT Backend Repo](https://github.com/nathandiez/iots6_aws_oss)
 - [Config Server](https://github.com/nathandiez/aws_serveconfig)
 - [Architecture Diagram](https://github.com/nathandiez/nathandiez/blob/main/architecture5.md)
 #### Description:
-- AWS infrastructure automation using Terraform with local-exec for EC2 provisioning and security group management
-- Multi-stage deployment pipeline with Bash scripts integrating Terraform and Ansible orchestration
-- Dockerized IoT services including TimescaleDB for time series data and Mosquitto MQTT broker
-- Python data ingestion service that processes MQTT events and writes records to TimescaleDB
-- Grafana dashboards for real-time visualization and monitoring
-- Comprehensive deployment, testing, monitoring, and teardown scripts
+- Dual deployment options: Single VM with Docker containers or 3-node EKS cluster
+- Infrastructure as Code: Terraform automation for AWS resources with integrated provisioning
+- Automated deployment: Complete pipeline using Bash scripts with Terraform and Ansible orchestration
+- Time series data processing: TimescaleDB for efficient sensor data storage and Mosquitto MQTT broker
+- Real-time data pipeline: Python service processes MQTT messages and stores data with proper schema
+- Monitoring and visualization: Grafana dashboards with external LoadBalancer access
+- Enterprise features: Persistent storage, auto scaling, health checks, and comprehensive management tools
 
 ---
 
