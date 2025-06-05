@@ -1,7 +1,7 @@
 # Featured Projects
 
 # Home IoT Monitoring System - Azure Open-Source Stack
-Live Grafana Dashboard: [View Dashboard]([http://74.235.232.127:3000/d/10711dc4-f67e-41ba-af3a-89801da2e582/iot-monitoring](http://172.174.9.109:3000/d/7fee1038-fef5-4ef6-811e-15ce95b87ea8/home-iot-monitoring-system-dashboard?orgId=1&from=now-1h&to=now&timezone=browser&editPanel=1))
+Live Grafana Dashboard: [View Dashboard](http://172.174.9.109:3000/d/7fee1038-fef5-4ef6-811e-15ce95b87ea8/home-iot-monitoring-system-dashboard)
 
 Username: `iots6` | Password: `iots6`
 
