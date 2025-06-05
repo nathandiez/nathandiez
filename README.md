@@ -1,6 +1,6 @@
 # Featured Projects
 
-# Home IoT Monitoring System - Azure Open-Source Stack
+# Home IoT System - Azure Open-Source Stack
 Live Grafana Dashboard: [View Dashboard](http://172.174.9.109:3000/d/7fee1038-fef5-4ef6-811e-15ce95b87ea8/home-iot-monitoring-system-dashboard)
 
 Username: `iots6` | Password: `iots6`
@@ -8,7 +8,6 @@ Username: `iots6` | Password: `iots6`
 Built and deployed on Azure using open-source technologies:
 Azure VMs, Terraform, local-exec, Ansible, Docker, TimescaleDB, Mosquitto MQTT, Grafana, Python, MicroPython, Raspberry Pi Pico W
 - [IoT Backend Repo](https://github.com/nathandiez/iots6_az_oss)
-- [IoT Device Repo](https://github.com/nathandiez/picosensor) 
 - [Config Server](https://github.com/nathandiez/az_serveconfig)
 - [Architecture Diagram](https://github.com/nathandiez/nathandiez/blob/main/architecture3.md)
 #### Description:
@@ -18,15 +17,13 @@ Azure VMs, Terraform, local-exec, Ansible, Docker, TimescaleDB, Mosquitto MQTT, 
 - Python data ingestion service that processes MQTT events and writes records to TimescaleDB
 - Grafana dashboards for real time visualization
 - Comprehensive deployment, testing, monitoring, and teardown scripts
-- MicroPython app on Raspberry Pi Pico W devices measuring, temperature, humidity, barometric pressure, motion and switch state
 
 ---
 
-# Home IoT Monitoring System - Proxmox Open-Source Stack
+# Home IoT System - Proxmox Open-Source Stack
 Built and deployed on Proxmox using open-source technologies:
 Proxmox VMs, Terraform, Ansible, Docker, TimescaleDB, Mosquitto MQTT, Flask, Python, MicroPython, Raspberry Pi Pico W
 - [IoT Backend Repo](https://github.com/nathandiez/iots6_prox_oss)
-- [IoT Device Repo](https://github.com/nathandiez/picosensor) 
 - [Config Server](https://github.com/nathandiez/prox_serveconfig)
 - [Architecture Diagram](https://github.com/nathandiez/nathandiez/blob/main/architecture2.md)
 #### Description:
@@ -34,11 +31,21 @@ Proxmox VMs, Terraform, Ansible, Docker, TimescaleDB, Mosquitto MQTT, Flask, Pyt
   
 ---
 
-# Home IoT Monitoring System - Azure Stack
+# Home IoT System - AWS Open-Source Stack
+Built and deployed on AWS using open-source technologies:
+AWS EC2, Terraform, local-exec, Ansible, Docker, TimescaleDB, Mosquitto MQTT, Grafana, Python, MicroPython, Raspberry Pi Pico W
+- [IoT Backend Repo](https://github.com/nathandiez/iots6_aws_oss)
+- [Config Server](https://github.com/nathandiez/aws_serveconfig)
+- [Architecture Diagram](https://github.com/nathandiez/nathandiez/blob/main/architecture5.md)
+#### Description:
+- Same open-source stack as Azure project above.
+
+---
+
+# Home IoT System - Azure Stack
 Built and deployed on Azure using cloud native services:
 Azure App Service, Terraform, Azure Data Lake, Databricks, C# .NET, MicroPython, Raspberry Pi Pico W, Azure Key Vault
 - [IoT Backend Repo](https://github.com/nathandiez/iots6_az_paas)
-- [IoT Device Repo](https://github.com/nathandiez/picosensor)
 - [Architecture Diagram](https://github.com/nathandiez/nathandiez/blob/main/architecture.md)
 #### Description:
 - Azure infrastructure automation using Terraform for consistent cloud deployments
@@ -47,11 +54,10 @@ Azure App Service, Terraform, Azure Data Lake, Databricks, C# .NET, MicroPython,
 - Databricks workspace integration for data analysis with custom Python notebooks
 - Secure credential management using Azure Key Vault
 - Comprehensive deployment and monitoring scripts
-- MicroPython app on Raspberry Pi Pico W devices measuring, temperature, humidity, barometric pressure, motion and switch state
-  
+
 ---
 
-# Home IoT Monitoring System - Azure Kubernetes Stack
+# Home IoT System - Azure Kubernetes Stack
 Built and deployed on Azure using Kubernetes and cloud native technologies:
 Azure Kubernetes Service (AKS), Terraform, Helm, Docker, TimescaleDB, Mosquitto MQTT, React, Flask, Python, cert manager, NGINX Ingress
 - [IoT Backend Repo](https://github.com/nathandiez/iots2)
@@ -70,11 +76,28 @@ Azure Kubernetes Service (AKS), Terraform, Helm, Docker, TimescaleDB, Mosquitto 
 
 ---
 
+# IoT Sensor Device Application - MicroPython
+*Sensor code used across all IoT monitoring systems above*
+
+Built with MicroPython for Raspberry Pi Pico W:
+MicroPython, Raspberry Pi Pico W, WiFi, MQTT, I2C, OneWire, GPIO, SSD1306 OLED
+- [IoT Device Repo](https://github.com/nathandiez/picosensor)
+#### Description:
+- Raspberry Pi Pico W firmware written in MicroPython that works across all my different backend infrastructures
+- Reads multiple sensor types including BME280 environmental sensors, DS18B20 temperature probes, motion detectors, and switches
+- Publishes sensor data via MQTT in JSON format to TimescaleDB backends running on Azure, AWS, Proxmox, and Kubernetes
+- Built-in SSD1306 OLED display shows live sensor readings with custom font support for easy local monitoring
+- Automatically downloads configuration updates from HTTP config servers for remote device management
+- Dual-mode operation with development/production settings plus error recovery and automatic reboots
+- Robust WiFi handling that reconnects automatically when network drops occur
+
+---
+
 ## Technical Skills
 `Azure` `AWS` `GCP` `Docker` `Kubernetes` `Terraform` `Ansible` `Python` `C#` `GitHub Actions` `Git`
 
 
-Azure, GCP, AWS, Linode, Azure Kubernetes Service (AKS), Proxmox, Azure Virtual Machines
+Azure, GCP, AWS, Linode, Azure Kubernetes Service (AKS), Proxmox, Azure VMs, AWS EC2
 
 Docker, Kubernetes, Helm, NGINX Ingress
 
