@@ -106,7 +106,6 @@ MicroPython, Raspberry Pi Pico W, WiFi, MQTT, I2C, OneWire, GPIO, SSD1306 OLED
 ---
 
 ## Technical Skills
-`Azure` `AWS` `GCP` `Docker` `Kubernetes` `Terraform` `Ansible` `Python` `C#` `GitHub Actions` `Git`
 
 
 Azure, GCP, AWS, Linode, Azure Kubernetes Service (AKS), Proxmox, Azure VMs, AWS EC2
