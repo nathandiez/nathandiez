@@ -1,6 +1,6 @@
 # Featured Projects
 
-# Home IoT System - Azure Open-Source Stack
+# 1 - Home IoT System - Azure Open-Source Stack
 Live Grafana Dashboard: [View Dashboard](http://172.174.9.109:3000/d/7fee1038-fef5-4ef6-811e-15ce95b87ea8/home-iot-monitoring-system-dashboard) (Down for Maintenance) - Migrating to Kubernetes
 
 Username: `iots6` | Password: `iots6`
@@ -21,7 +21,7 @@ Azure, Terraform, Kubernetes, Ansible, Docker, TimescaleDB, Mosquitto MQTT, Graf
 
 ---
 
-# Home IoT System - Proxmox Open-Source Stack
+# 2 - Home IoT System - Proxmox Open-Source Stack
 Built and deployed on Proxmox using open-source technologies:
 Proxmox VMs, Terraform, Ansible, Docker, TimescaleDB, Mosquitto MQTT, Flask, Python
 - [IoT Backend Repo](https://github.com/nathandiez/iots6_prox_oss)
@@ -37,7 +37,7 @@ Proxmox VMs, Terraform, Ansible, Docker, TimescaleDB, Mosquitto MQTT, Flask, Pyt
   
 ---
 
-# Home IoT System - AWS Open-Source Stack
+# 3 - Home IoT System - AWS Open-Source Stack
 Built and deployed on AWS using open-source technologies:
 AWS, Terraform, Kubernetes, Ansible, Docker, TimescaleDB, Mosquitto MQTT, Grafana, Python
 - [IoT Backend Repo](https://github.com/nathandiez/iots6_aws_oss)
@@ -54,7 +54,7 @@ AWS, Terraform, Kubernetes, Ansible, Docker, TimescaleDB, Mosquitto MQTT, Grafan
 
 ---
 
-# Home IoT System - Azure Stack
+# 4 - Home IoT System - Azure Stack
 Built and deployed on Azure using cloud native services:
 Azure App Service, Terraform, Azure Data Lake, Databricks, C# .NET, Azure Key Vault
 - [IoT Backend Repo](https://github.com/nathandiez/iots6_az_paas)
@@ -69,7 +69,7 @@ Azure App Service, Terraform, Azure Data Lake, Databricks, C# .NET, Azure Key Va
 
 ---
 
-# Home IoT System - Azure Kubernetes Stack
+# 5 - Home IoT System - Azure Kubernetes Stack
 Built and deployed on Azure using Kubernetes and cloud native technologies:
 Azure Kubernetes Service (AKS), Terraform, Helm, Docker, TimescaleDB, Mosquitto MQTT, React, Flask, Python, cert manager, NGINX Ingress
 - [IoT Backend Repo](https://github.com/nathandiez/iots2)
@@ -88,7 +88,7 @@ Azure Kubernetes Service (AKS), Terraform, Helm, Docker, TimescaleDB, Mosquitto 
 
 ---
 
-# IoT Sensor Device Application - MicroPython
+# 6 - IoT Sensor Device Application - MicroPython
 *Sensor code used across all IoT monitoring systems above*
 
 Built with MicroPython for Raspberry Pi Pico W:
