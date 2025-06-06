@@ -20,10 +20,17 @@ Username: `iots6` | Password: `iots6`
 ---
 
 # 2 - Home IoT System - AWS Open-Source Stack
-Same tech stack as Azure project #1, but deployed to AWS. In progress: ArgoCD and Datadog
+Rebuilt Azure Open-Source Stack project for AWS with EKS and GitOps. Added ArgoCD for automated development, staging, and production deployments. Kubernetes services packaged into Helm charts.
 - [IoT Backend Repo](https://github.com/nathandiez/iots6_aws_oss)
 - [Config Server](https://github.com/nathandiez/aws_serveconfig)
 - [Architecture Diagram](https://github.com/nathandiez/nathandiez/blob/main/architecture5.md)
+
+What's Different:
+
+- GitOps with ArgoCD ApplicationSets - push to Git and it deploys everywhere
+- Helm charts for cleaner Kubernetes deployments
+- Proper EBS storage setup
+- Three separate environments with different configs and resource limits
 ---
 
 # 3 - Home IoT System - Proxmox Open-Source Stack
@@ -58,14 +65,18 @@ MicroPython, Raspberry Pi Pico W, MQTT, I2C, OneWire, GPIO, SSD1306 OLED
 
 ## Technologies:
 
-Azure, AWS, Linode, Azure Kubernetes Service (AKS), Amazon EKS, Proxmox, Azure VMs, AWS EC2, AWS VPC, AWS IAM
+Azure, AWS, Linode, Proxmox
 
-Docker, Kubernetes, Helm, NGINX Ingress, kubectl
+AKS, EKS, Azure VMs, EC2, VPC, IAM, EBS, Azure Data Lake
 
-Terraform, Ansible, GitHub Actions, Git
+Docker, Kubernetes, Helm, kubectl
 
-Python, C#, MicroPython, Bash, Flask, React, JavaScript
+ArgoCD, GitHub Actions, NGINX Ingress
 
-TimescaleDB, PostgreSQL, Mosquitto MQTT, Azure Data Lake, AWS EBS
+Terraform, Ansible, Git
+
+Python, C#, MicroPython, Bash, JavaScript, Flask, React
+
+TimescaleDB, PostgreSQL, Mosquitto MQTT
 
 Grafana, Databricks, Prometheus, cert-manager, TLS/SSL
