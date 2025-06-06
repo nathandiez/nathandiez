@@ -20,7 +20,7 @@ Username: `iots6` | Password: `iots6`
 ---
 
 # 2 - IoT System - AWS Open-Source Stack with Kubernetes
-Same as Azure project 1, but with AWS, EKS and GitOps (ArgoCD & Helm). 
+Same as Azure project 1, but with AWS, EKS and GitOps (ArgoCD & Helm)
 - [IoT Backend Repo](https://github.com/nathandiez/iots6_aws_oss)
 - [Config Server](https://github.com/nathandiez/aws_serveconfig)
 - [Architecture Diagram](https://github.com/nathandiez/nathandiez/blob/main/architecture5.md)
