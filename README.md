@@ -1,6 +1,6 @@
 # Featured Projects
 
-# 1 - Home IoT System - Azure Open-Source Stack
+# 1 - IoT System - Azure Open-Source Stack with Kubernetes
 Built and deployed on Azure using open-source technologies:
 Terraform with local-exec, Kubernetes (AKS), Ansible, Docker, TimescaleDB, Mosquitto MQTT, Grafana, Python
 - [IoT Backend Repo](https://github.com/nathandiez/iots6_az_oss)
@@ -19,7 +19,7 @@ Username: `iots6` | Password: `iots6`
 - Enterprise features: Persistent storage, auto scaling, health checks, and comprehensive testing/verification tools
 ---
 
-# 2 - Home IoT System - AWS Open-Source Stack
+# 2 - IoT System - AWS Open-Source Stack with Kubernetes
 Rebuilt Azure Open-Source Stack project for AWS with EKS and GitOps. Added ArgoCD for automated development, staging, and production deployments. Kubernetes services packaged into Helm charts.
 - [IoT Backend Repo](https://github.com/nathandiez/iots6_aws_oss)
 - [Config Server](https://github.com/nathandiez/aws_serveconfig)
@@ -33,7 +33,7 @@ What's Different:
 - Three separate environments with different configs and resource limits
 ---
 
-# 3 - Home IoT System - Proxmox Open-Source Stack
+# 3 - IoT System - Proxmox Open-Source Stack
 Same as Azure project 1, but deployed only to local Proxmox Type-1 Hypervisor VM
 
 - [IoT Backend Repo](https://github.com/nathandiez/iots6_prox_oss)
@@ -41,7 +41,7 @@ Same as Azure project 1, but deployed only to local Proxmox Type-1 Hypervisor VM
 - [Architecture Diagram](https://github.com/nathandiez/nathandiez/blob/main/architecture2.md)
 ---
 
-# 4 - Home IoT System - Azure PaaS Stack
+# 4 - IoT System - Azure PaaS Stack
 Azure App Service, Terraform, Azure Data Lake, Databricks, C# .NET, Azure Key Vault
 - [IoT Backend Repo](https://github.com/nathandiez/iots6_az_paas)
 - [Architecture Diagram](https://github.com/nathandiez/nathandiez/blob/main/architecture.md)
