@@ -27,7 +27,7 @@ Same tech stack as Azure project #1, but deployed to AWS. In progress: ArgoCD an
 ---
 
 # 3 - Home IoT System - Proxmox Open-Source Stack
-Same as Azure project 1 without kubernetes, but deployed only to local Proxmox Type-1 Hypervisor VM
+Same as Azure project 1, but deployed only to local Proxmox Type-1 Hypervisor VM
 
 - [IoT Backend Repo](https://github.com/nathandiez/iots6_prox_oss)
 - [Config Server](https://github.com/nathandiez/prox_serveconfig)
