@@ -7,7 +7,8 @@ Terraform with local-exec, Kubernetes (AKS), Ansible, Docker, TimescaleDB, Mosqu
 - [Config Server](https://github.com/nathandiez/az_serveconfig)
 - [Architecture Diagram](https://github.com/nathandiez/nathandiez/blob/main/architecture3.md)
 
-Live Grafana Dashboard: [View Dashboard](http://172.171.194.131:3000/d/b2d9b279-dce2-45dc-82ab-b86e8a56e420/home-iot-dashboard)
+Live Grafana Dashboard: [View Dashboard](http://172.171.194.131:3000/d/b2d9b279-dce2-45dc-82ab-b86e8a56e420/home-iot-dashboard) (DOWN FOR MAINTENANCE)
+
 Username: `iots6` | Password: `iots6`
 
 #### Description:
