@@ -20,7 +20,7 @@ Username: `iots6` | Password: `iots6`
 ---
 
 # 2 - IoT System - AWS Open-Source Stack with Kubernetes
-Same as Azure project 1, but with AWS, EKS and GitOps (ArgoCD & Helm)
+Same as Azure project 1, but with AWS, EKS and GitOps (ArgoCD, Helm & Datadog)
 - [IoT Backend Repo](https://github.com/nathandiez/iots6_aws_oss)
 - [Config Server](https://github.com/nathandiez/aws_serveconfig)
 - [Architecture Diagram](https://github.com/nathandiez/nathandiez/blob/main/architecture5.md)
@@ -29,6 +29,8 @@ What's Different:
 
 - GitOps with ArgoCD ApplicationSets - push to Git and it deploys everywhere
 - Helm charts for cleaner Kubernetes deployments
+- Datadog monitoring for cluster metrics, logs, and application performance
+- External Secrets Operator syncs with AWS Parameter Store - keeps secrets out of Git
 - Proper EBS storage setup
 - Three separate environments with different configs and resource limits
 ---
@@ -67,11 +69,11 @@ MicroPython, Raspberry Pi Pico W, MQTT, I2C, OneWire, GPIO, SSD1306 OLED
 
 Azure, AWS, Linode, Proxmox
 
-AKS, EKS, Azure VMs, EC2, VPC, IAM, EBS, Azure Data Lake
+AKS, EKS, Azure VMs, EC2, VPC, IAM, EBS, Azure Data Lake, AWS Parameter Store
 
 Docker, Kubernetes, Helm, kubectl
 
-ArgoCD, GitHub Actions, NGINX Ingress
+ArgoCD, External Secrets Operator, GitHub Actions, NGINX Ingress
 
 Terraform, Ansible, Git
 
@@ -79,4 +81,4 @@ Python, C#, MicroPython, Bash, JavaScript, Flask, React
 
 TimescaleDB, PostgreSQL, Mosquitto MQTT
 
-Grafana, Databricks, Prometheus, cert-manager, TLS/SSL
+Datadog, Grafana, Databricks, Prometheus, cert-manager, TLS/SSL
