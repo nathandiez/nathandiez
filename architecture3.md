@@ -1,4 +1,4 @@
-# IoT System Architecture
+# IoT System Architecture - Azure
 
 ## Sensor Hardware
 ```mermaid
@@ -27,17 +27,17 @@ graph TB
   class MQTT_CLOUD cloud
 ```
 
-## Deployment Option 1: Single VM
+## VM Deployment
 ```mermaid
 graph TB
   PICO_VM["Pico W"] 
   
   subgraph "Azure VM"
     subgraph "Docker Services"
-      MQTT["Mosquitto MQTT<br/>Port 1883"]
-      DB["TimescaleDB<br/>Port 5432<br/>PostgreSQL + TimescaleDB"]
-      SERVICE["Python IoT Service<br/>MQTT Consumer"]
-      GRAFANA["Grafana<br/>Port 3000"]
+      MQTT["Mosquitto MQTT"]
+      DB["TimescaleDB"]
+      SERVICE["Python IoT Service"]
+      GRAFANA["Grafana"]
     end
     DOCKER_NET["iot_network"]
   end
@@ -65,7 +65,7 @@ graph TB
   class GRAFANA viz
 ```
 
-## Deployment Option 2: Kubernetes AKS
+## AKS Kubernetes
 ```mermaid
 graph TB
   PICO_K8S["Pico W"]
@@ -74,7 +74,7 @@ graph TB
     subgraph "Application Workloads"
       K8S_MQTT["Mosquitto MQTT<br/>LoadBalancer"]
       K8S_DB["TimescaleDB<br/>Persistent Storage"]
-      K8S_SERVICE["IoT Service Pod<br/>nathandiez12/iot-service"]
+      K8S_SERVICE["IoT Service Pod"]
       K8S_GRAFANA["Grafana<br/>LoadBalancer"]
     end
     
@@ -115,7 +115,7 @@ graph LR
     ANSIBLE["Ansible"]
   end
   
-  subgraph "K8s Deployment"  
+  subgraph "AKS Deployment"  
     TF_AKS["Terraform"]
     HELM["Helm Charts"]
   end
@@ -128,11 +128,17 @@ graph LR
   class TF_VM,TF_AKS,ANSIBLE,HELM iac
 ```
 
-## Data Schema
+## Data Schema & GitOps
 ```mermaid
 graph TB
   PICO_DATA["Pico W"]
   MQTT_MSG["MQTT"]
+  
+  subgraph "GitOps Environments"
+    DEV["Development<br/>iots6-dev"]
+    STAGING["Staging<br/>iots6-staging"]
+    PROD["Production<br/>iots6-prod"]
+  end
   
   subgraph "TimescaleDB Schema"
     TABLE["sensor_data table<br/>Hypertable partitioned by time"]
@@ -140,12 +146,47 @@ graph TB
   end
   
   PICO_DATA --> MQTT_MSG
-  MQTT_MSG --> TABLE
+  MQTT_MSG --> DEV
+  MQTT_MSG --> STAGING
+  MQTT_MSG --> PROD
+  DEV --> TABLE
+  STAGING --> TABLE
+  PROD --> TABLE
   TABLE --> FIELDS
   
   classDef device fill:#10b981,stroke:#059669,stroke-width:3px,color:#fff
   classDef data fill:#3b82f6,stroke:#2563eb,stroke-width:3px,color:#fff
+  classDef env fill:#f59e0b,stroke:#d97706,stroke-width:3px,color:#fff
   
   class PICO_DATA device
   class MQTT_MSG,TABLE,FIELDS data
+  class DEV,STAGING,PROD env
+```
+
+## Platform Services
+```mermaid
+graph LR
+  subgraph "Secret Management"
+    KV_PARAM["Azure Key Vault<br/>Encrypted Configuration"]
+    EXT["External Secrets Operator<br/>Auto-sync"]
+    K8S_SEC["Kubernetes Secrets<br/>Automatic Injection"]
+  end
+  
+  subgraph "Monitoring & Observability"
+    AZURE_MON["Azure Monitor<br/>Metrics & Logs"]
+    AZURE_DASH["Azure Dashboard<br/>Infrastructure Monitoring"]
+    GRAFANA_MON["Grafana<br/>Application Metrics"]
+  end
+  
+  KV_PARAM --> EXT
+  EXT --> K8S_SEC
+  
+  AZURE_MON --> AZURE_DASH
+  AZURE_MON --> GRAFANA_MON
+  
+  classDef secret fill:#0078d4,stroke:#106ebe,stroke-width:3px,color:#fff
+  classDef monitor fill:#632ca6,stroke:#4c1d95,stroke-width:3px,color:#fff
+  
+  class KV_PARAM,EXT,K8S_SEC secret
+  class AZURE_MON,AZURE_DASH,GRAFANA_MON monitor
 ```
